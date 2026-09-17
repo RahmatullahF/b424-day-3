@@ -15,3 +15,6 @@ jobs:
 
       - name: Validate
         run: echo "Pull request validation passed!"
+
+      - name: Intentionally Fail
+        run: exit 1
